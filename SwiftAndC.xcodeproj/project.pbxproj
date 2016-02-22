@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAFD22C1C7AE3C500E571FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFD22B1C7AE3C500E571FE /* AppDelegate.swift */; };
+		7FAFD22E1C7AE3C500E571FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAFD22D1C7AE3C500E571FE /* Assets.xcassets */; };
+		7FAFD2311C7AE3C500E571FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAFD22F1C7AE3C500E571FE /* MainMenu.xib */; };
+		7FAFD23B1C7AEA4800E571FE /* ctest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFD2391C7AEA4800E571FE /* ctest.c */; };
+		7FAFD23D1C7AECAA00E571FE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD23C1C7AECAA00E571FE /* OpenGL.framework */; };
+		7FAFD23F1C7AECB200E571FE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD23E1C7AECB200E571FE /* CoreVideo.framework */; };
+		7FAFD2411C7AECBB00E571FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD2401C7AECBB00E571FE /* Cocoa.framework */; };
+		7FAFD2431C7AECC400E571FE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD2421C7AECC400E571FE /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FAFD2281C7AE3C500E571FE /* SwiftAndC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAndC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFD22B1C7AE3C500E571FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FAFD22D1C7AE3C500E571FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAFD2301C7AE3C500E571FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7FAFD2321C7AE3C500E571FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAFD2381C7AEA4800E571FE /* SwiftAndC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftAndC-Bridging-Header.h"; sourceTree = "<group>"; };
+		7FAFD2391C7AEA4800E571FE /* ctest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctest.c; sourceTree = "<group>"; };
+		7FAFD23A1C7AEA4800E571FE /* ctest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctest.h; sourceTree = "<group>"; };
+		7FAFD23C1C7AECAA00E571FE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		7FAFD23E1C7AECB200E571FE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7FAFD2401C7AECBB00E571FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7FAFD2421C7AECC400E571FE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAFD2251C7AE3C500E571FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD2431C7AECC400E571FE /* IOKit.framework in Frameworks */,
+				7FAFD2411C7AECBB00E571FE /* Cocoa.framework in Frameworks */,
+				7FAFD23F1C7AECB200E571FE /* CoreVideo.framework in Frameworks */,
+				7FAFD23D1C7AECAA00E571FE /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAFD21F1C7AE3C500E571FE = {
+			isa = PBXGroup;
+			children = (
+				7FAFD2421C7AECC400E571FE /* IOKit.framework */,
+				7FAFD2401C7AECBB00E571FE /* Cocoa.framework */,
+				7FAFD23E1C7AECB200E571FE /* CoreVideo.framework */,
+				7FAFD23C1C7AECAA00E571FE /* OpenGL.framework */,
+				7FAFD22A1C7AE3C500E571FE /* SwiftAndC */,
+				7FAFD2291C7AE3C500E571FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAFD2291C7AE3C500E571FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD2281C7AE3C500E571FE /* SwiftAndC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAFD22A1C7AE3C500E571FE /* SwiftAndC */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD22B1C7AE3C500E571FE /* AppDelegate.swift */,
+				7FAFD22D1C7AE3C500E571FE /* Assets.xcassets */,
+				7FAFD22F1C7AE3C500E571FE /* MainMenu.xib */,
+				7FAFD2321C7AE3C500E571FE /* Info.plist */,
+				7FAFD2391C7AEA4800E571FE /* ctest.c */,
+				7FAFD23A1C7AEA4800E571FE /* ctest.h */,
+				7FAFD2381C7AEA4800E571FE /* SwiftAndC-Bridging-Header.h */,
+			);
+			path = SwiftAndC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAFD2271C7AE3C500E571FE /* SwiftAndC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFD2351C7AE3C500E571FE /* Build configuration list for PBXNativeTarget "SwiftAndC" */;
+			buildPhases = (
+				7FAFD2241C7AE3C500E571FE /* Sources */,
+				7FAFD2251C7AE3C500E571FE /* Frameworks */,
+				7FAFD2261C7AE3C500E571FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAndC;
+			productName = SwiftAndC;
+			productReference = 7FAFD2281C7AE3C500E571FE /* SwiftAndC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAFD2201C7AE3C500E571FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					7FAFD2271C7AE3C500E571FE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FAFD2231C7AE3C500E571FE /* Build configuration list for PBXProject "SwiftAndC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAFD21F1C7AE3C500E571FE;
+			productRefGroup = 7FAFD2291C7AE3C500E571FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAFD2271C7AE3C500E571FE /* SwiftAndC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAFD2261C7AE3C500E571FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD22E1C7AE3C500E571FE /* Assets.xcassets in Resources */,
+				7FAFD2311C7AE3C500E571FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAFD2241C7AE3C500E571FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD22C1C7AE3C500E571FE /* AppDelegate.swift in Sources */,
+				7FAFD23B1C7AEA4800E571FE /* ctest.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FAFD22F1C7AE3C500E571FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAFD2301C7AE3C500E571FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAFD2331C7AE3C500E571FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAFD2341C7AE3C500E571FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FAFD2361C7AE3C500E571FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = SwiftAndC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lglfw3";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SwiftAndC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAndC/SwiftAndC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAFD2371C7AE3C500E571FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = SwiftAndC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lglfw3";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SwiftAndC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAndC/SwiftAndC-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAFD2231C7AE3C500E571FE /* Build configuration list for PBXProject "SwiftAndC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFD2331C7AE3C500E571FE /* Debug */,
+				7FAFD2341C7AE3C500E571FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFD2351C7AE3C500E571FE /* Build configuration list for PBXNativeTarget "SwiftAndC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFD2361C7AE3C500E571FE /* Debug */,
+				7FAFD2371C7AE3C500E571FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAFD2201C7AE3C500E571FE /* Project object */;
+}
